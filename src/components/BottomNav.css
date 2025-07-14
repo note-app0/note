@@ -1,0 +1,30 @@
+.create-button {
+  background: linear-gradient(45deg, #f97316, #6366f1);
+  padding: 2px;
+  border-radius: 12px;
+}
+.create-button-inner {
+  background: #000;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 32px;
+}
+.create-button:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+}
+.create-button:active {
+  transform: scale(0.95);
+}
+.create-button-inner svg {
+  color: #fff; /* white by default */
+}
+.videos-feed-bottom-nav .create-button-inner {
+  background: #fff;
+}
+.videos-feed-bottom-nav .create-button-inner svg {
+  color: #000; /* black in VideosFeed */
+}

@@ -1,0 +1,18 @@
+.navbar {
+  background: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* Apply dark glass style only when .dark is present on a parent */
+.dark .navbar {
+  background: rgba(24, 24, 27, 0.35); /* more opaque, closer to #18181b */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.navbar.no-border {
+  border-bottom: none !important;
+}
